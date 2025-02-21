@@ -7,15 +7,19 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <style>
         body { font-family: Arial, sans-serif; }
-        .hero { background-color: #f8f9fa; padding: 50px 0; text-align: center; }
-        .contact-info { margin-top: 20px; }
-        .section-title { margin-top: 40px; border-bottom: 2px solid #007bff; padding-bottom: 10px; }
+        .hero { background-color: #343a40; color: white; padding: 50px 0; text-align: center; }
+        .section { padding: 40px 20px; }
+        #about { background-color: #f8f9fa; }
+        #research { background-color: #e9ecef; }
+        #publications { background-color: #dee2e6; }
+        #teaching { background-color: #ced4da; }
+        #contact { background-color: #adb5bd; }
+        .section-title { border-bottom: 3px solid #007bff; padding-bottom: 10px; margin-bottom: 20px; font-weight: bold; }
     </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -39,28 +43,28 @@
     </header>
 
     <div class="container">
-        <section id="about">
+        <section id="about" class="section">
             <h2 class="section-title">About Me</h2>
-            <p>I am an Associate Professor at Virginia Commonwealth University specializing in Cryptography, Secure Multi-Party Computation, and Blockchain Technologies.</p>
+            <p>I am an Associate Professor in the Computer Science Department at Virginia Commonwealth University specializing in Cryptography, Secure Multi-Party Computation, and Blockchain Technologies.</p>
         </section>
         
-        <section id="research">
+        <section id="research" class="section">
             <h2 class="section-title">Research</h2>
             <p>My research interests focus on cryptography, including:</p>
             <ul>
-                <li>Secure Multi-Party Computation; Zero-Knowledge Proofs </li>
-                <li>Cryptocurrency and Blockchain Technologies</li>
-                <li>Composability; Indifferentiability</li>               
-                <li>Extreme Cryptography: Security against Leakage, Tampering, Subversion, Coercion, and Quantum Attacks</li>
-                 <li>Functional Encryption and Obfuscation; Fully Homomorphic Encryption; Hardware-based Cryptography</li>
-               <li>Cryptography for AI</li>                
+                <li>Secure Multi-Party Computation; Zero-Knowledge Proofs; </li>
+                <li>Cryptocurrency and Blockchain Technologies; </li>
+                <li>Composability; Indifferentiability; </li>
+                <li>Extreme Cryptography: Security against Leakage, Tampering, Subversion, Coercion, and Quantum Attacks; </li>
+                <li>Functional Encryption and Obfuscation; </li>
+                <li>Cryptography for AI</li>
             </ul>
         </section>
         
-        <section id="publications">
+        <section id="publications" class="section">
             <h2 class="section-title">Recent Publications</h2>
             <ul>
-               <li><a href="https://eprint.iacr.org/2021/660">Best-Possible Unpredictable Proof-of-Stake: An Impossibility and a Practical Design</a> - EuroS&P 2025</li>
+                <li><a href="https://eprint.iacr.org/2021/660">Best-Possible Unpredictable Proof-of-Stake: An Impossibility and a Practical Design</a> - EuroS&P 2025</li>
                 <li><a href="https://eprint.iacr.org/2024/305">Single-Input Functionality against a Dishonest Majority: Practical and Round-Optimal</a> - PKC 2025</li>
                 <li><a href="https://eprint.iacr.org/2024/922">Scalable Private Set Union, with Stronger Security</a> - USENIX Security 2024</li>
                 <li><a href="https://eprint.iacr.org/2023/1367">Practical Constructions for Single Input Functionality Against a Dishonest Majority</a> - EuroS&P 2024</li>
@@ -69,25 +73,25 @@
                 <li><a href="https://eprint.iacr.org/2022/1127">GUC-Secure Commitments via Random Oracles: New Impossibility and Feasibility</a> - ASIACRYPT 2022</li>
                 <li><a href="https://link.springer.com/chapter/10.1007/978-3-031-22963-3_25">A Universally Composable Non-interactive Aggregate Cash System</a> - ASIACRYPT 2022</li>
                 <li><a href="https://eprint.iacr.org/2022/210">An Analysis of the Algebraic Group Model</a> - ASIACRYPT 2022</li>
-                <li><a href="https://eprint.iacr.org/2022/157">Shuffle-based Private Set Union: Faster and More Secure</a> - USENIX Security 2022</li>
-            </ul>
-            <p>For a complete list of my research papers, visit my <a href="https://dblp.org/pid/23/6726.html">publications</a>.</p>
+                <li><a href="https://eprint.iacr.org/2022/157">Shuffle-based Private Set Union: Faster and More Secure</a> - USENIX Security 2022</li>            </ul>
+            <p>For a complete list, visit my <a href="https://dblp.org/pid/23/6726.html">publications</a>.</p>
         </section>
         
-        <section id="teaching">
+        <section id="teaching" class="section">
             <h2 class="section-title">Teaching</h2>
             <p>Courses I have taught:</p>
             <ul>
                 <li>Introduction to Cryptography (CMSC 415)</li>
-                 <li>Cryptocurrency and Blockchain (CMSC 615)</li>
-               <li>Applied Cryptography (CMSC 620/ CISS 624)</li>
+                <li>Cryptocurrency and Blockchain (CMSC 615)</li>
+                <li>Applied Cryptography (CMSC 620/ CISS 624)</li>
             </ul>
         </section>
         
-        <section id="contact">
+        <section id="contact" class="section">
             <h2 class="section-title">Contact</h2>
             <p>Email: hongsheng.zhou (at) gmail.com</p>
-            <p>Office: Engineering East Hall, E4240, Virginia Commonwealth University</p>
+            <p>Office: Engineering East Hall, Room E4240</p>
+            <p>Address: 401 West Main Street, P.O. Box 843019, Richmond, Virginia 23284-3019</p>
         </section>
     </div>
     
